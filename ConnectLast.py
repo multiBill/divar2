@@ -1,4 +1,4 @@
-import matplotlib-3.9.2-pp39-pypy39_pp73-win_amd64
+from matplotlib-3.9.2-pp39-pypy39_pp73-win_amd64
 import streamlit as st
 from BackendLast import columns,x_train,y_train,parameters_finder
 #from projectlas4 import df
