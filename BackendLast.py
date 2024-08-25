@@ -21,7 +21,7 @@ import joblib
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv(r'D:\MachineLerningMaktabkhoone-karbordi\Projects\8-divar\last\tehranhouses.csv')
+df = pd.read_csv(r'tehranhouses.csv')
 
 def lower_upper(x) :
     Q1 = np.percentile(x,25)
