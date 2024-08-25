@@ -1,5 +1,5 @@
 import streamlit as st
-from backend2 import columns,x_train,y_train,parameters_finder
+from backend2.ipynb import columns,x_train,y_train,parameters_finder
 #from projectlas4 import df
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.linear_model import LinearRegression ,Ridge,Lasso,ElasticNet
